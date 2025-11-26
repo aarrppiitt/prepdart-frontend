@@ -25,7 +25,7 @@ export default function OptionsList({ options = {} }) {
               className={`flex items-center gap-3 p-3 rounded-lg border transition
                 ${isCorrect
                   ? 'bg-green-50 border-green-200 shadow-sm'
-                  : 'bg-white border-gray-200 hover:shadow-sm hover:bg-gray-50'}
+                  : 'bg-white border-gray-200'}
               `}
             >
               <div
