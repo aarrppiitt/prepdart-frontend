@@ -7,7 +7,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, process.cwd(), '')
 
   const API_BACKEND = 'http://localhost:7777'
-  const apiPrefixes = ['questions', 'papers', 'auth', 'uploads', 'files']
+  const apiPrefixes = ['questions', 'papers', 'auth', 'uploads', 'files', 'courses']
 
   const proxy = {}
 
